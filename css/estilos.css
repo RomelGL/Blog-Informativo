@@ -1,0 +1,52 @@
+.padding-left{
+	padding-left: 15px;
+}
+.padding-menor{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+body{
+	background: #DEDEDE;
+}
+.margen-inferior{
+	margin-bottom:15px; 
+}
+/*Clases del index para el thumbnail de contenidos*/
+.no-padding{
+padding: 0;
+}
+
+/*slidershow*/
+.margen-inferior-header{
+	margin-bottom: 51px;
+}
+
+/*Media Querie*/
+@media screen and (max-width: 768px){
+	.post .thumb {
+		width: 100%;
+		margin-bottom: 20px;
+		margin-right: 0;
+	}
+}
+
+@media (max-width: 767px) {
+  .no-padding-right, .no-padding-left{
+    padding: 0px 0px;
+  }
+}
+@media (max-width: 767px) {
+  .padding-left{
+    padding: 0;
+  }
+}
+
+
+/*Footer el mismo de bootstrap*/
+/*Footer el mismo de bootstrap*/
+/*Footer el mismo de bootstrap*/
+/*Footer el mismo de bootstrap*/
+
+footer{
+	background-color: #101010;
+}
